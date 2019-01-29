@@ -38,3 +38,12 @@ Pull down the newest version:
 git pull
 ```
 
+Resolve Merge Conflicts:
+
+```
+# edit
+git commit
+git add -A
+git commit
+```
+
