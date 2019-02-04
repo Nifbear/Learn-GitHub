@@ -47,3 +47,11 @@ git add -A
 git commit
 ```
 
+Force to pull all and ignore conflicts:
+
+```
+git fetch --all
+git reset --hard origin/master
+git pull
+```
+
