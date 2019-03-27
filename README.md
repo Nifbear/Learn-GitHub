@@ -1,4 +1,4 @@
-# Learn_Github
+# Learn-Github
 
 Clone the repository to local:
 
