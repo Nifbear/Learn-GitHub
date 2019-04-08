@@ -56,6 +56,16 @@ git pull
 ```
 --- 
 
+## Upload to GitHub
+```
+cd [dir]
+git init
+git add .
+git commit -m "Files"
+git remote add origin https://github.com/Nifbear/...
+git push -u origin master
+```
+
 ## Directory Tree
 Example:
 
