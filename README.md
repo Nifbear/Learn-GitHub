@@ -88,17 +88,17 @@ jt -r
 ```
 
 ## GCP
---------- Upload ---------
+Upload
 ```
-gcloud compute scp /Users/cino/Desktop/model.zip ecbm4040@instance-traffic:~/traffic
+gcloud compute scp <path to file> ecbm4040@instance-<name>:~/
 ```
---------- Connect --------
+Connect
 ```
-gcloud compute ssh ecbm4040@instance-traffic
+gcloud compute ssh ecbm4040@instance-<name>
 ```
------- Connect Jupyter ---
+Connect Jupyter
 ```
-gcloud compute ssh --ssh-flag="-L 9999:localhost:8888" --zone "us-east1-d" "ecbm4040@instance-traffic"
+gcloud compute ssh --ssh-flag="-L 9999:localhost:8888" --zone "us-east1-d" "ecbm4040@instance-<name>"
 --------- Env ------------
 ```
 source dlenv/bin/activate
