@@ -86,3 +86,22 @@ Main
 jt -t chesterish -f fira -tf georgiaserif -tfs 12 -fs 11 -cellw 85% -ofs 10 -lineh 160 -T
 jt -r
 ```
+
+## GCP
+--------- Upload ---------
+```
+gcloud compute scp /Users/cino/Desktop/model.zip ecbm4040@instance-traffic:~/traffic
+```
+--------- Connect --------
+```
+gcloud compute ssh ecbm4040@instance-traffic
+```
+------ Connect Jupyter ---
+```
+gcloud compute ssh --ssh-flag="-L 9999:localhost:8888" --zone "us-east1-d" "ecbm4040@instance-traffic"
+--------- Env ------------
+```
+source dlenv/bin/activate
+jupyter notebook
+```
+
