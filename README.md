@@ -99,7 +99,8 @@ gcloud compute ssh ecbm4040@instance-<name>
 Connect Jupyter
 ```
 gcloud compute ssh --ssh-flag="-L 9999:localhost:8888" --zone "us-east1-d" "ecbm4040@instance-<name>"
---------- Env ------------
+```
+Env
 ```
 source dlenv/bin/activate
 jupyter notebook
