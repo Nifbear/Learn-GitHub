@@ -79,3 +79,10 @@ Main
 ├── Sub2
 └── Sub3
 ```
+
+
+## Jupyter Notebook Theme
+```
+jt -t chesterish -f fira -tf georgiaserif -tfs 12 -fs 11 -cellw 85% -ofs 10 -lineh 160 -T
+jt -r
+```
