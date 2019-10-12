@@ -106,3 +106,9 @@ source dlenv/bin/activate
 jupyter notebook
 ```
 
+## Conda
+Set auto activate as False.
+```
+conda config --show | grep auto_activate_base
+conda config --set auto_activate_base False
+```
